@@ -1,0 +1,41 @@
+body{
+    background-color: lightpink;
+    background-image: url(https://learn.g2.com/hs-fs/hubfs/plan%20gif%20marketing%20strategy.gif?width=500&name=plan%20gif%20marketing%20strategy.gif);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-attachment: fixed;
+    background-size: 10cm;
+}   
+p{
+    font-size: 0.8in;
+    color: purple;
+    background-image: url(https://img.freepik.com/free-vector/bokeh-theme-wallpaper_23-2148467962.jpg?semt=ais_incoming&w=740&q=80);
+    background-size: cover;
+}
+div{
+    width: 500px;
+    height: 500px;
+    border-width: 50px;
+}
+#d1{
+    background-image: url(https://wallpaper.forfun.com/fetch/f1/f1ffc0cbde8a6a4309af9f36c6df662f.jpeg);
+    background-size: 10cm;
+    border-style: ridge;
+    border-color: blueviolet;
+}
+#d2{
+    border-style: solid;
+    border-image: linear-gradient(yellow, blue) 30; 
+    background-image: url(https://i.pinimg.com/474x/93/29/1d/93291d6bacac288e592ad4cb38156c05.jpg);
+    background-size: 470px;
+}
+#img1{
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px deeppink;
+}
+#img2{
+    width: 50%;
+    border: 30px groove violet;
+    margin-top: 50px;
+}

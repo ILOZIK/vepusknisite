@@ -1,0 +1,49 @@
+body{
+    background-color: lime;
+}
+p{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    background-color: lightseagreen;
+    color: blue;
+    text-align: center;
+}
+ul, ol, dl{
+    font-size: 30px;
+    color: darkgreen;
+    font-weight: 700;
+}
+.l1 li::marker{
+    color: brown;
+    font-size: 1.2cm;
+}
+.l2 li{
+    padding-left: 10px;
+}
+ol{
+    margin-left: 40px;
+}
+.l3{
+    margin-left: 15px;
+}
+.l4{
+    margin-left: 120px;
+}
+@counter-style circled-alpha {
+  system: fixed;
+  symbols: Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ;
+  suffix: " ";
+}
+.l5{
+    list-style: circled-alpha;
+}
+@counter-style markers {
+  system: fixed;
+  symbols: Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ;
+  suffix: " ";
+}
+.l6{
+    list-style: markers;
+}

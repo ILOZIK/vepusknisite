@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(235, 235, 121);
+}
+h1{
+    font-family: Courier, monospace;
+    color: rgb(149, 94, 200);
+    font-weight: normal;
+    font-size: 85px;
+    text-align: center;
+    font-weight: bold;
+}
+p{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 24px;
+    word-spacing: 6px;
+    font-size: 18px;
+    color: black;
+    margin-right: 30px;
+}
+.fr{
+    border: thin silver solid;
+    float: right;
+    padding: 10px;
+}
+.fr figcaption{
+    font-family: sans-serif;
+    color: #222;
+}
+h2{
+    font-size: 50px;
+    font-family: fantasy;
+    color: rgba(127, 147, 154, 0.599);
+    letter-spacing: 6px;
+}
+h3{
+    font-size: 40px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: green;
+}
+h4{
+    font-size: 25px;
+    font-family: serif;
+    color: rgb(95, 148, 76);
+}
+/* Прапор України */
+.prapor{
+    border: thin silver solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+    float: right;
+}
+.fp{
+  background-color: #222222;
+  color: white;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+/* Герб України */
+.gerb{
+    border: thin silver solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    float: right;
+}
+.fg{
+    background-color: #222222;
+  color: white;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+.a1{
+    text-decoration: none;
+}
+.a1:hover{
+    text-decoration-line: underline;
+}
+.a1:active{
+    color: navy;
+}
+.zm{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+}

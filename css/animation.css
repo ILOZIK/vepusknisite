@@ -1,0 +1,106 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+@keyframes myanimation1{
+    from{background-color: red;}
+    to{background-color: yellow;}
+}
+#d1{
+    animation-name: myanimation1;
+    animation-duration: 5s
+}
+@keyframes myanimation2{
+    0%{background-color: red;}
+    25%{background-color: green;}
+    50%{background-color: orange;}
+    75%{background-color: blue;}
+    100%{background-color: yellow;}
+}
+#d2{
+    animation-name: myanimation2;
+    animation-duration: 5s
+}
+@keyframes myanimation3{
+    0%{background-color: red; top: 0px; left: 0px;}
+    25%{background-color: green; top: 0px; left: 200px;}
+    50%{background-color: orange; top: 200px; left: 200px;}
+    75%{background-color: blue; top: 200px; left: 0px;}
+    100%{background-color: yellow; top: 0px; left: 0px;}
+}
+#d3{
+    position: relative;
+    animation-name: myanimation3;
+    animation-duration: 5s
+}
+@keyframes myanimation4{
+    0%{background-color: red; top: 0px; left: 0px;}
+    25%{background-color: green; top: 0px; left: 200px;}
+    50%{background-color: orange; top: 200px; left: 200px;}
+    75%{background-color: blue; top: 200px; left: 0px;}
+    100%{background-color: yellow; top: 0px; left: 0px;}
+}
+#d4{
+    animation-delay: 2s;
+    position: relative;
+    animation-name: myanimation4;
+    animation-duration: 5s
+}
+@keyframes myanimation5{
+    0%{background-color: red; top: 0px; left: 0px;}
+    25%{background-color: green; top: 0px; left: 200px;}
+    50%{background-color: orange; top: 200px; left: 200px;}
+    75%{background-color: blue; top: 200px; left: 0px;}
+    100%{background-color: yellow; top: 0px; left: 0px;}
+}
+#d5{
+    animation-iteration-count: 3;
+    animation-delay: 2s;
+    position: relative;
+    animation-name: myanimation5;
+    animation-duration: 5s
+}
+@keyframes myanimation6{
+    0%{background-color: red; top: 0px; left: 0px;}
+    25%{background-color: green; top: 0px; left: 200px;}
+    50%{background-color: orange; top: 200px; left: 200px;}
+    75%{background-color: blue; top: 200px; left: 0px;}
+    100%{background-color: yellow; top: 0px; left: 0px;}
+}
+#d6{
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    position: relative;
+    animation-name: myanimation6;
+    animation-duration: 5s
+}
+@keyframes myanimation7{
+    0%{background-color: red; top: 0px; left: 0px;}
+    25%{background-color: green; top: 0px; left: 200px;}
+    50%{background-color: orange; top: 200px; left: 200px;}
+    75%{background-color: blue; top: 200px; left: 0px;}
+    100%{background-color: yellow; top: 0px; left: 0px;}
+}
+#d7{
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    position: relative;
+    animation-name: myanimation7;
+    animation-duration: 5s
+}
+@keyframes myanimation8{
+    0%{background-color: red; top: 0px; left: 0px;}
+    25%{background-color: green; top: 0px; left: 200px;}
+    50%{background-color: orange; top: 0px; left: 400px;}
+    75%{background-color: blue; top: 0px; left: 600px;}
+    100%{background-color: yellow; top: 0px; left: 800px;}
+}
+#d8{
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-name: myanimation8;
+    animation-duration: 5s
+}
